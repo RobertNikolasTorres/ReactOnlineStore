@@ -1,0 +1,25 @@
+.nav {
+    color: aqua;
+    background-color: aqua;
+}
+.menu{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+
+}
+
+a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

@@ -1,0 +1,26 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.footerUp{
+    margin-bottom: 0px;
+    
+}
+
+.footerUp a{
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footerUp a:hover{
+    text-decoration: underline;
+}
