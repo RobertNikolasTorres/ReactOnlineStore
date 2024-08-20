@@ -1,0 +1,30 @@
+.admin{
+    color: black;
+    background-color: wheat;
+    padding-top: 20px;
+}
+.admin h1 {
+    color: black;
+    font-weight: bolder;
+}
+.admin .parent{
+    outline: 1px red;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.admin .products {
+    flex: 3;
+}
+
+.admin .coupons {
+    flex: 2;
+}
+
+.admin label {
+    display: block;
+    width: 90px;
+    text-align: right;
+    margin-right: 6px;
+}

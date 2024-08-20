@@ -5,25 +5,41 @@ import Catalog from './pages/Catalog';
 import About from './pages/About';
 import Footer from './components/Footer';
 import QuantityPicker from './components/QuantityPicker';
-import ShoppingList from './pages/ShoppingList'
+import ShoppingList from './pages/ShoppingList';
+import Home from './pages/Home';
+import Admin from './pages/Admin';
+import Cart from './pages/Cart';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+import{BrowserRouter, Routes, Route} from 'react-router-dom';
+import GlobalProvider from './context/GlobalProvider'; 
+
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
 
-      <Catalog></Catalog>
+    <GlobalProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar/>
 
-      <About></About>
+          <Routes>
+            <Route path='/' element={ <Home/>}></Route>
+            <Route path='/catalog' element={ <Catalog/>}></Route>
+            <Route path='/about' element={ <About/>}></Route>
+            <Route path='/shoppingList' element={ <ShoppingList/>}></Route>
+            <Route path='/admin' element={ <Admin/>}></Route>
+            <Route path='/cart' element={ <Cart/>}></Route>
 
-      <ShoppingList></ShoppingList>
+            
+          </Routes>
 
-      <Footer></Footer>
-    </div>
+          <Footer/>
+        </div>
+      </BrowserRouter>
+    </GlobalProvider>
   );
 }
 
