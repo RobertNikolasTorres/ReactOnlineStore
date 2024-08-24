@@ -1,4 +1,8 @@
-
+.cart{
+    background-color: darkgrey;
+    height: 100%;
+    padding-bottom: 30px;
+}
 .cart .cart-prod {
     border: 1px solid black;
     border-radius: 4px;
@@ -21,6 +25,7 @@
 
 .cart .cart-prod h5 {
     flex: 3;
+    text-decoration: underline;
 }
 
 .cart .cart-prod button {
@@ -40,6 +45,11 @@
     flex: 1;
 }
 
-.cart .parent .total h3 {
+.cart .parent .total .h3 {
     color: red;
+    
+}
+
+.cart .total h5{
+
 }
