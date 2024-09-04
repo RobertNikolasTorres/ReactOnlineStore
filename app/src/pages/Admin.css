@@ -3,6 +3,7 @@
     background-color: darkgoldenrod;
     padding-top: 20px;
     height: 100%;
+    background-image: linear-gradient(to right, #251e22, #3d333c, #544a59, #6a6379, #7d7e9b, #7487a9, #6691b5, #519bbd, #0093a7, #008985, #007c5a, #1c6d2a);
 }
 .admin h1 {
     color: black;

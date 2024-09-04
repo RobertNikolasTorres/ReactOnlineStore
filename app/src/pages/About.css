@@ -3,7 +3,7 @@
     height: 370px;
     color: black;
     padding-top: 15px;
-}
+    background-image: linear-gradient(to right bottom, #301f29, #392f42, #39425a, #30566e, #286b79, #1f7075, #21746d, #2d7763, #226c52, #1a6240, #14572e, #114c1b);}
  .about .h1{
    text-decoration: underline;
    color: red;

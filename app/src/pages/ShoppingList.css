@@ -2,6 +2,7 @@
     min-height: 600px;
     background-color: #f7eaea;
     padding-top: 30px;
+    background-image: linear-gradient(to right bottom, #301f29, #392f42, #39425a, #30566e, #286b79, #1f7075, #21746d, #2d7763, #226c52, #1a6240, #14572e, #114c1b);
 }
 .shopping-list .capture {
     width: 450px;
